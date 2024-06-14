@@ -1,0 +1,93 @@
+.contact-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trait {
+  width: 250px;
+  height: 6px;
+  border-radius: 12px;
+  background-color: #111;
+}
+.primary-trait {
+  background-color: rgb(248, 75, 32);
+  width: 20%;
+  height: 6px;
+  border-radius: 12px;
+}
+.contact-container-content {
+  background-image: url("/src/PortfolioContainer/Contact/bg.jpg");
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 4px 4px 4px 4px rgb(95, 94, 94);
+  width: 70%;
+  border-radius: 18px;
+}
+.colz-icon i {
+  font-size: 20px;
+  color: white;
+  padding: 8px;
+  padding-left: 0px;
+}
+.colz-icon i:hover {
+  transform: scale(1.5);
+}
+.getIn {
+  width: 50%;
+  padding: 18px;
+  color: cornsilk;
+}
+.getIn .emai-icon {
+  width: 100%;
+  height: 260px;
+}
+.getIn .emai-icon iframe {
+  border-radius: 12px;
+}
+.icon-photo {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.input-content {
+  width: 50%;
+  padding: 12px;
+}
+.input-balise {
+  margin-top: 9%;
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  border-radius: 12px;
+}
+input,
+textarea {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px;
+}
+textarea {
+  height: 120px;
+}
+@media screen and (max-width: 769px) {
+  .contact-container-content {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .contact-container-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5%;
+  }
+  .getIn {
+    width: 100%;
+  }
+  .input-content {
+    width: 100%;
+  }
+}
