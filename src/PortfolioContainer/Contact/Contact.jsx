@@ -18,7 +18,12 @@ const Contact = () => {
             {" "}
             <h1>
               {" "}
-              <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+              <Typical loop={Infinity} steps={[
+                "Get In Touch 📧",
+                 1000,
+                 "Check location 🗺️",
+                 1000
+                ]} />
             </h1>
             <div className="colz-icon">
               <a href="">
